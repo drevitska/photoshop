@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.section {
+    background: #121116; /* Цвет фона */
+    text-align: center;
+    padding-top: 118px;
+    padding-bottom: 36px;
+    
+}
+.container {
+    width: 1170px; /* Ширина блока */
+    margin: 0 auto;
+    /* outline: 1px solid red; */
+}
+
+.logo {
+margin-bottom: 51px;
+}
+.line {
+    background: #ffffff;
+    width: 230px;
+    height: 1px;
+   margin: 21px auto;
+
+}
+.title {
+    font-size: 20px;
+}
+.color1 {
+    color: #fefbfc;
+}
+.color2 {
+    color: #19c8fa;
+}
+.link {
+    margin-bottom: 82px;
+}
+.icon {
+    margin-right: 33px;
+}
+.footer1 {
+    font-size: 15px;
+}
