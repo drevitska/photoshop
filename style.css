@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -6,8 +7,8 @@ body {
 .section {
     background: #121116; /* Цвет фона */
     text-align: center;
-    padding-top: 118px;
-    padding-bottom: 36px;
+    padding-top: 118px; /* отступ сверху */
+    padding-bottom: 36px; /* отступ cнизу */
     
 }
 .container {
@@ -17,13 +18,13 @@ body {
 }
 
 .logo {
-margin-bottom: 51px;
+    margin-bottom: 51px;
 }
 .line {
     background: #ffffff;
     width: 230px;
     height: 1px;
-   margin: 21px auto;
+    margin: 21px auto;
 
 }
 .title {
@@ -43,4 +44,49 @@ margin-bottom: 51px;
 }
 .footer1 {
     font-size: 15px;
+}
+/*вторая часть  */
+.section-2 {
+    background: #1d1c1c; /* Цвет фона */
+    padding-top: 108px; /* отступ сверху */
+    padding-bottom: 110px; /* отступ cнизу */
+    font-family: 'Raleway', sans-serif;
+
+}
+.wrapper {
+  display: flex;  
+  width: 1170px; /* Ширина блока */
+  margin: 0 auto;
+
+}
+.boxes {
+    text-align: center; /* выравнивание текста по центру */
+    color: #ffffff;
+    padding: 0 15px;
+    
+
+
+}
+.img-box {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(255, 174, 0);
+    border-top-left-radius: 17px;
+    border-bottom-right-radius: 17px;
+    display: flex; /* задали свойство флекс дочерним елементам*/
+    justify-content: center; /* выравнивание дочерних флекс элементов по основной оси */
+    align-items: center; /* выравнивание дочерних флекс элементов по второй оси */
+    margin: 0 auto;
+
+
+}
+.boxes > h3 {
+    text-transform: uppercase;
+    font-size: 24px;
+    margin: 25px;
+    font-weight: normal;
+}
+p {
+    font-size: 14px;
+  
 }
